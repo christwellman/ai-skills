@@ -24,6 +24,8 @@ Write a PR body that a reviewer can check fast. Then open the PR on the user's y
 
 Never merge the PR. Never request reviewers unless the user names them.
 
+A guard (`guard/check_pr_command.py`) blocks `gh pr create` and `gh pr edit --body` when the body misses the template's required parts or contains email addresses. `--fill` and `--web` are blocked. See `guard/README.md`.
+
 ## Template
 
 ```markdown
