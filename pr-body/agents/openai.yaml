@@ -1,0 +1,3 @@
+interface:
+  display_name: "PR Body"
+  short_description: "Write an ETL-aware PR body and open the PR"
